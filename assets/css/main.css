@@ -72,6 +72,33 @@ input, select, textarea {
 	appearance: none;
 }
 
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	text-align: center;
+	padding: 2em 2em 2em 2em;
+  }
+.card img{
+	height: 5em;
+	width: 5em;
+}
+  
+  .title {
+	color: grey;
+	font-size: 18px;
+  }
+  
+
+  
+  a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+  }
+
+  
+
+
 /* Basic */
 
 	html {
@@ -1915,6 +1942,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		height: 360px;
 	}
 
 		.box.style1 {
